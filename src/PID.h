@@ -41,6 +41,10 @@ public:
   * Calculate the total PID error.
   */
   double TotalError();
+
+  // Past err
+  double past_cte;
+
 };
 
 #endif /* PID_H */
